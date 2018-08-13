@@ -12,7 +12,7 @@ This is a browser-based card matching game.
 
 ## Instructions
 
-[Clone] (https://github.com/JoBrigden/memorygame) this repository and open index.html file to view the project in your browser, or visit https://jobrigden.github.io/memorygame to access the game immediately.
+[Clone](https://github.com/JoBrigden/memorygame) this repository and open index.html file to view the project in your browser, or visit https://jobrigden.github.io/memorygame to access the game immediately.
 
 ## How to play
 
@@ -25,10 +25,10 @@ The player will be timed and shown how many moves it took to complete the game. 
 ## Game dependencies
 
 The following resources were used to develop the game:
-- [Bootstrap: Font-awesome] (https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css)
-- [Google fonts: Coda] (https://fonts.googleapis.com/css?family=Coda)
-- [cdnjs Library: animate.css] (https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css)
+- [Bootstrap: Font-awesome](https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css)
+- [Google fonts: Coda](https://fonts.googleapis.com/css?family=Coda)
+- [cdnjs Library: animate.css](https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css)
 
 ## Contributing
 
-Contributions to add more functionality and User experience improvements are welcome. Please read [CONTRIBUTING.md] (https://github.com/JoBrigden/memorygame/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Contributions to add more functionality and User experience improvements are welcome. Please read [CONTRIBUTING.md](https://github.com/JoBrigden/memorygame/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
