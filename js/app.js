@@ -1,22 +1,22 @@
 // cardlist that holds all  cards
- var cardList = [
+ let cardList = [
    "fa-diamond", "fa-paper-plane-o", "fa-anchor", "fa-bolt", "fa-cube", "fa-leaf", "fa-bicycle", "fa-bomb"
  ];
 
 // store number of moves
- var startGame = false;
- var moves = 0;
- var matchFound = 0;
+ let startGame = false;
+ let moves = 0;
+ let matchFound = 0;
 
 // timer
-var timer = new Timer();
+const timer = new Timer();
  timer.addEventListener('secondsUpdated', function (e) {
    $('#timer').html(timer.getTimeValues().toString());
  });
 
 // reset game
 $('#restart-game').click(function () {
-  restartGame;
+  restartGame();
 });
 
 // create card
@@ -160,6 +160,7 @@ function restartGame() {
   startGame=false;
   timer.stop();
   $('#timer').html("00:00:00");
+  removeCards();
   playGame();
 }
 
