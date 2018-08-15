@@ -1,3 +1,5 @@
+//Add better comments explaining "WHY" some code does what it does (not "WHAT" it does)
+
 // cardlist that holds all  cards
  let cardList = [
    "fa-diamond", "fa-paper-plane-o", "fa-anchor", "fa-bolt", "fa-cube", "fa-leaf", "fa-bicycle", "fa-bomb"
@@ -26,7 +28,7 @@ function createCard(card) {
 
 // generate gameboard
 function generateCards() {
-  for (var i = 0; i < 2; i++) {
+  for (let i = 0; i < 2; i++) {
     cardList = shuffle(cardList);
     cardList.forEach(createCard);
   }
